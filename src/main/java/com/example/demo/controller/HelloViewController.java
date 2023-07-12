@@ -11,7 +11,7 @@ public class HelloViewController {
 	
 	@GetMapping("view")
 	public String helloView() {
-		//戻り値は「ビュー名」返す。
+		//戻り値は「ビュー名」返す
 		return "hello";
 		
 	}
